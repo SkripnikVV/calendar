@@ -113,6 +113,9 @@ def save_nsr(data: NsrDoc, file: str):
         fl.writelines(data.head)
         fl.writelines(data.body)
 
+def hello():
+    return 'hello'
+
 
 def get_args():
     """разбор аргументов"""
